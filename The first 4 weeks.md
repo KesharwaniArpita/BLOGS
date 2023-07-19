@@ -1,7 +1,7 @@
 # The First 4 Weeks
 ## This is my second blog of my journey as a Summer Research Fellow under IASc-INSA-NASI SRFP 2023. Here, I have briefed about the first month I spent at research lab, including my training and allotment of problem statement.
 ### Training and Introduction
-My first 10 days were for my training and Introduction. There were three research scholars, a senior scientist and few research interns in the Cyber Physical Systems lab. I realized I was the youngest in the lab. I met my mentor Dr. Geetika Jain Saxena on the second day where we discussed about the field of research.
+My first 10 days were for training and Introduction. There were three research scholars, a senior scientist and few research interns in the Cyber Physical Systems lab. I realised I was the youngest in the lab. I met my mentor Dr. Geetika Jain Saxena on the second day where we discussed the area of research.
 The training included learning about Machine learning, Data analysis and feature extraction to familiarize myself with their basics through various courses on youtube and Kaggle and to complete certain tasks associated to them . I was able to complete the machine learning and data analysis tasks after thoroughly studying it for almost a week.
 The ML task included implementing ML model on [framingham heart disease](https://biolincc.nhlbi.nih.gov/studies/framcohort/) dataset while the data analysis task included performing Exploratory data analysis on a PCOS dataset.
 ### Allotment of the first Problem Statment
