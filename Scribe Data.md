@@ -22,10 +22,10 @@ But Scribe is more than just a tool for language learners—it’s part of the *
 
 ## Scribe and the FLOSS Community: Why Open Source Matters
 
-At the heart of Scribe’s development is a strong commitment to the **FLOSS ethos**. Free and open-source software ensures that anyone can contribute, modify, and use the app freely. By making Scribe open source, **Andrew McAllister**—the creator of Scribe—believes the app can evolve through community contributions and grow to support an even wider range of languages and features.
+At the heart of Scribe’s development is a strong commitment to the **FLOSS ethos**. Free and open-source software ensures that anyone can contribute, modify, and use the app freely. By making Scribe open source, the Scribe community believes the app can evolve through community contributions and grow to support an even wider range of languages and features.
 
-Andrew’s vision is simple but powerful: 
-> “With open data from Wikidata and open-source contributions, Scribe will become a truly comprehensive tool for language learners around the world.”
+The community's vision is simple yet powerful: 
+**With open data from Wikidata and open-source contributions, Scribe will become a truly comprehensive tool for language learners around the world.**
 
 Scribe’s development shows how the FLOSS community can drive innovation and create lasting tools for the benefit of all.
 
@@ -39,7 +39,7 @@ Scribe currently offers a range of tools that make it a standout in the language
 
 - **Scribe-Data**: Scribe utilizes data from **Wikidata’s lexicographical data** to provide accurate grammar and language assistance. Through a series of saved **SPARQL queries**, the app pulls information about nouns, verbs, and word forms, storing them as compact **JSON files**. This allows Scribe to work offline, delivering an efficient and responsive experience.
 
-- **The Vision for Android and Desktop**: Though Scribe is currently only available for iOS, there are ambitious plans to bring the app to **Android and desktop platforms**, using technologies like Kotlin and Python. This expansion would allow even more users to benefit from Scribe’s powerful language tools.
+- **The Vision for Android and Desktop**: Though Scribe is currently only available for iOS, there are ambitious plans to bring the app to **Android and desktop platforms**, using technologies like Kotlin and Rust. This expansion would allow even more users to benefit from Scribe’s powerful language tools.
 
 ---
 
@@ -57,7 +57,7 @@ Scribe exemplifies the best of what open-source projects can achieve. By using *
 
 ## Get Involved with Scribe
 
-The beauty of Scribe lies not just in its functionality, but in its openness. Andrew and the Scribe team are constantly seeking new contributors to help expand the app's features, add support for more languages, and enhance the lexicographical data available through Wikidata.
+The beauty of Scribe lies not just in its functionality, but in its openness. The Scribe community are constantly seeking new contributors to help expand the app's features, add support for more languages, and enhance the lexicographical data available through Wikidata.
 
 If you’re a developer, linguist, or even a language enthusiast, you can be part of this journey! Head over to Scribe’s [GitHub repository](https://github.com/scribe), explore the project, and see how you can contribute. Your involvement could help make Scribe an indispensable tool for language learners everywhere.
 
