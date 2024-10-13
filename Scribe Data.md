@@ -1,14 +1,20 @@
 # Scribe: An Open-Source Solution for Language Learning and Data Accessibility
 
-In a world where languages connect us across borders, learning a new language can be both exciting and challenging. Whether it's the complex grammar of German or the nuanced verb conjugations of French, navigating these rules often requires extra support. But what if there was a tool that helped you master these intricacies seamlessly, right from your phone?
+A language is not just a means of communication but a powerful tool for building understanding, cooperation, and unity across borders, fostering a more interconnected and empathetic environment. 
 
-**Enter Scribe**: an open-source app that empowers language learners with real-time grammar, conjugation, and translation assistance, all integrated into your keyboard. Built on the power of open data from **Wikidata**, Scribe offers a practical solution to help users communicate confidently without needing to switch between multiple apps.
+In today's globalized world, where communication spans across borders, acquiring a new language can be thrilling yet daunting. Navigating the elaborate grammar of German or the intricate verb conjugations of French may often necessitate additional assistance. There are many advantages to learning a new language. It boosts creative thinking and improves cognitive abilities. Learning multiple languages helps to increase vocabulary in both the foreign and native language. 
 
+It also enhances cultural understanding, eases global communication, and strengthens global connections, making it a useful skill in today's interconnected world.
+
+<!--- **Enter Scribe**: an open-source app that empowers language learners with real-time grammar, conjugation, and translation assistance, all integrated into your keyboard. Built on the power of open data from **Wikidata**, Scribe offers a practical solution to help users communicate confidently without needing to switch between multiple apps.
+--->
 ---
 
 ## What is Scribe?
 
-Scribe is an innovative language learning tool, currently available as an iOS keyboard extension, that provides real-time grammar and translation assistance for seven languages: **French, German, Italian, Portuguese, Russian, Spanish**, and **Swedish**. Whether you're chatting in WhatsApp or writing an email, Scribe offers in-app support to help you manage noun genders, verb conjugations, and even prepositions, saving you from grammar headaches.
+Scribe is a community of language enthusiasts, learners and developers creating tools to help people communicate with confidence.
+
+Scribe is an innovative language learning tool, currently available as an iOS app, that provides real-time grammar and translation assistance for seven languages: **French, German, Italian, Portuguese, Russian, Spanish**, and **Swedish**. Whether you're chatting in WhatsApp or writing an email, Scribe offers in-app support to help you manage noun genders, verb conjugations, and even prepositions, saving you from grammar headaches.
 
 But Scribe is more than just a tool for language learners—it’s part of the **FLOSS (Free, Libre, Open Source Software)** movement, which champions community collaboration, transparency, and accessibility.
 
@@ -62,3 +68,13 @@ If you’re a developer, linguist, or even a language enthusiast, you can be par
 Scribe is more than just an app—it’s a movement toward making language learning accessible to all. By tapping into the power of open source and community collaboration, we can build tools that benefit millions. So, whether you want to contribute code, provide language data, or simply use the app, your involvement can make a real difference.
 
 Ready to explore Scribe? Check out our website and start your open-source journey today!
+
+## References
+
+- **Wikidata Lexicographical Data**: The Scribe app relies heavily on data sourced from [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), an open and collaborative knowledge base, which stores information about nouns, verbs, and their associated forms.
+  
+- **FLOSS (Free, Libre, Open Source Software)**: For more information on the ethos behind Free and Open-Source Software, check out the [FLOSS website](https://www.gnu.org/philosophy/floss-and-foss.en.html) or the [Free Software Foundation](https://www.fsf.org/).
+  
+- **Scribe GitHub Repository**: You can contribute to Scribe and access the source code on the [Scribe GitHub page](https://github.com/scribe).
+  
+- **Wikidata SPARQL Queries**: Scribe utilizes SPARQL to extract lexicographical data, and you can explore more about [SPARQL on Wikidata](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service).
