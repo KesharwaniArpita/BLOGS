@@ -57,7 +57,7 @@ Scribe exemplifies the best of what open-source projects can achieve. By using *
 
 ## Get Involved with Scribe
 
-The beauty of Scribe lies not just in its functionality, but in its openness. The Scribe community are constantly seeking new contributors to help expand the app's features, add support for more languages, and enhance the lexicographical data available through Wikidata.
+The beauty of Scribe lies not just in its functionality, but in its openness. The Scribe community is constantly seeking new contributors to help expand the app's features, add support for more languages, and enhance the lexicographical data available through Wikidata.
 
 If you’re a developer, linguist, or even a language enthusiast, you can be part of this journey! Head over to Scribe’s [GitHub repository](https://github.com/scribe), explore the project, and see how you can contribute. Your involvement could help make Scribe an indispensable tool for language learners everywhere.
 
