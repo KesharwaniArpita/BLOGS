@@ -33,6 +33,8 @@ In addition to research, I will conduct UX research through interviews with tran
 
 I have been contributing to Scribe Data for the past 21 days (from October 01 to October 22). My contributions include the following tasks:
 
+BLog written
+
 <!-- **Scribe-Data**
 |Contribution   | Title | Link     |
 |----------|-----|-----------------|
