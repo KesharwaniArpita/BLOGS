@@ -39,6 +39,7 @@ Blog Written:
 - **Published on:** Medium
 - **Link:** [Read the blog](https://medium.com/@arpita151103/scribe-an-open-source-solution-for-language-learning-and-data-accessibility-092dab026fd6)
 - **Description:** This blog introduces the key features of Scribe, the importance of Free/Libre Open Source Software (FLOSS) in the domain of language learning, and how Scribe's solutions make data accessible to a global audience. The blog raises awareness about Scribe’s mission and products, encouraging new users and contributors to get involved.
+- **Scribe-Org Outreach**
 
  **Scribe-Data**
 | **Sl. No.** | **Contribution** | **Title** | **Link** | **Type of Contribution** | **Merged/Not Merged** |
@@ -76,9 +77,11 @@ Blog Written:
 | **Sl. No.** | **Contribution** | **Title** | **Link** | **Type of Contribution** | **Merged/Not Merged** |
 |-------------|------------------|-----------|----------|--------------------------|-----------------------|
 | 1           | Add Pre-commit Hooks and Documentation to Development Environment | #219 | [Link](https://github.com/scribe-org/scribe-android/pull/219) | Workflow Automation | Merged |
-| 2           | Refactor Long Lines of Code for Improved Readability | #213 | [Link](https://github.com/scribe-org/scribe-android/pull/213) | Enhancement Tasks | Merged |
-| 3           | Update detekt.yml set Empty catch to true | #211 | [Link](https://github.com/scribe-org/scribe-android/pull/211) | Workflow Automation | Merged |
-| 4           | Update detekt.yml to fix the large class lint issue | N/A | N/A | Enhancement Tasks | N/A |
+| 2           | Refactor Long Lines of Code for Improved Readability | #213 | [Link](https://github.com/scribe-org/scribe-android/pull/213) | Workflow Automation and Code Refactor | Merged |
+| 3           | Update detekt.yml set Empty catch to true | #211 | [Link](https://github.com/scribe-org/scribe-android/pull/211) | Workflow Automation and Code Refactor | Merged |
+| 4           | Update detekt.yml to fix the large class lint issue | #185 | [Link](https://github.com/scribe-org/scribe-android/pull/185) | Workflow Automation and Code Refactor | Merged |
+| 5           | Refactor: Reduce Return Statements Across Multiple Functions | #191 | [Link](https://github.com/scribe-org/scribe-android/pull/191) | Workflow Automation and Code Refactor | Not Merged |
+
 
 
 **Scribe-i18n**
