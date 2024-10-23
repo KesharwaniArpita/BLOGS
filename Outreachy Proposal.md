@@ -267,8 +267,11 @@ This effort will enhance the Scribe suite's language learning capabilities, offe
 I am a final-year student pursuing a B.Tech in Information Technology and Mathematical Innovation at the Cluster Innovation Centre, University of Delhi.  I am a budding researcher with interests in inter-disciplinary fields of AI, mathematics, bioinformatics, and innovation management. I have worked on Free and Open-source projects too and been a Major 
 League Hacking Fellow in Fall 2023.  I am an active member of the coding society at CIC where we have built an ecosystem of peer-learning and have also helped in organising numerous workshop and technical fests.
 
-## Past Projects
-
+## Research Projects
+- Arpita Kesharwani and Shobha Bagai (2024). Comprehensive Modeling and Mitigation of Pollution in the Yamuna River
+ in Delhi: A Theoretical Approach. Manuscript submitted for publication in The College Mathematics Journal.
+- Arpita Kesharwani, et al. (2024). Comparative Analysis of 2D and 3D Aptamer Structure Prediction
+ Softwares using Bioinformatics tools. Draft Submitted
 
 ## How did I learn about Outreachy?
 Our college has a strong culture of contributing to open source, which inspired me to get involved in open-source communities like Wikimedia. As I explored more about the communities, I realised what kind of an impact they make into people's lives which further motivated me to be a part of this community and start my part of contributions. I came to know about Outreachy from a college senior, who interned at Outreachy and contributed to Inkscape in 2021. She told me about the program and also about how it supports diversity in free and open source software which got my interest and I started to work in this direction. I have a friend, also a classmate who has been an Outreachy intern for WMF in 2023 and a junior who interned at WMF in summer 2024 through Outreachy only. I have also contributed to FOSS and we all agree to the fact that Open source is a field of growth and learning.
