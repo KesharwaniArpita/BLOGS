@@ -9,6 +9,7 @@
 **Time Zone:** UTC+5:30 (Indian Standard Time)
 **Working Hours:** 9 AM to 2 AM (UTC+05:30)  
 **Availability:** 29 December, 2024 - 27 March, 2023 (Full-time, 10 + 3 weeks)
+**Time Commitments:** Exams from 9th December 2024 - 28th December 2024, Post my exams I have 6 months to work on an full time internship/project/job/opportunity during which I plan to work for Outreachy and Scribe Data.
 
 ## Abstract
 
@@ -117,82 +118,131 @@ This effort will enhance the Scribe suite's language learning capabilities, offe
 ### Pre-Selection Period (October 30 - November 26)
 - Understand the modified codebase
 - Work on adding language extraction queries.
+- WOrk on the assigned issues
 
 ### Community Bonding Period (November 26 - December 9)
 - Discuss and Plan the internship period with mentors.
 
-<!-- # Phase I: Testing of the Possible Hypothesis  
-**June 5th - June 9th** + **June 12th - June 16th**  
-**WEEK 2** + **WEEK 3**
-
-### Hypothesis 1
-The distribution of translators around the world will be significantly different from that of the editors and contributors. Analyse the data of translators based on location, similar to the analysis in the paper *Graham, Straumann, Hogan. 2015. "Digital Divisions of Labor and Informational Magnetism: Mapping Participation in Wikipedia."*
-
 ---
+# Phase I: Research and Designing  
+**December 29 - January 11**  
+**WEEK 1** + **WEEK 2**
 
-**June 19th - June 23rd** + **June 26th - June 30th**  
-**WEEK 4** + **WEEK 5**
+### **Week 1 (December 29 - January 5): Research and Analysis of Wiktionary Data**
+- **Objective:** Gain an in-depth understanding of Wiktionary’s structure and relevant SPARQL queries.
+- Review existing documentation on Scribe-Data’s architecture, workflows, and how it interacts with Wikidata.
+- Discuss project expectations and milestones with mentors.
+- Identify key data structures in Wiktionary that will be relevant for translation and synonym extraction.
+- Analyze how Wiktionary organizes translation and synonym data across multiple languages.
 
-### Hypothesis 2
-When two languages are more closely related geographically or historically, translations are more likely to occur. Languages that are more linked geographically or historically will see more translations.
+### **Week 2 (January 5 - January 11): Framework Designing**
+- **Objective:** Gain an in-depth understanding of Wiktionary’s structure and relevant SPARQL queries.
+- Outline the data fields needed for translations and synonyms, focusing on multilingual support.
+- Design a framework for parsing Wiktionary dumps, ensuring compliance with its licensing requirements.
+- Begin drafting potential queries and scripts to interact with Wiktionary data.
 
----
+# Phase II: Translations  
+**January 12 - January 25**  
+**WEEK 3** + **WEEK 4**
 
-# Phase II: Interview and Survey Documentation  
-**July 3rd**  
-**FEEDBACK #2**
+### **Week 3 (January 12 - January 18): Develop Translation Command Framework**
+- **Objective:** Build the foundation for the translation command.
+- Start developing SPARQL queries/.py Scripts to fetch translations from Wiktionary for various languages.
+- Implement a basic translation command using this data within Scribe-Data.
+- Create a structure for storing translations in the appropriate Scribe-Data format.
+- Expand the scope of the translation command to handle more languages and complex translation cases .
 
-**July 3rd - July 7th** + **July 10th - July 14th**  
-**WEEK 6** + **WEEK 7**
+### **Week 4 (January 19 - January 25): Refining Translation Commands and Testing**
+- **Objective:** Optimizing and testing the translation functionality.
+- Optimize the SPARQL queries for efficiency, ensuring they handle large-scale datasets without performance issues.
+- Begin unit testing to ensure the accuracy of translation outputs.
+- Review progress with mentors to refine the approach.
+- Develop additional unit tests to cover edge cases and language-specific nuances.
+- Ensure that translations are formatted properly for use within Scribe-iOS and Android apps.
 
-Conduct interviews with translators to understand how their perception of language importance influences their language selection. Investigate how software design impacts language selection and the translation workflow.  
-Analyse survey responses, document important observations.
+# Phase III: Synonyms  
+**January 26 - February 8**  
+**WEEK 5** + **WEEK 6**
 
----
+### **Week 5 (January 26 - February 1): Develop Synonym Command Framework**
+- **Objective:** Begin work on synonym extraction from Wiktionary.
+- Analyze the structure of synonym data in Wiktionary.
+- Draft SPARQL queries to fetch synonyms from Wiktionary for different languages.
+- Implement the synonym command within Scribe-Data, ensuring it interacts correctly with the translation command.
+- Expand the synonym command to support more languages and complex synonym relationships.
+- 
 
-**July 17th - July 21st**  
-**WEEK 8**
+### **Week 6 (February 2 - February 8): Integration and Testing of Synonym Commands**
+- **Objective:** Finalize synonym extraction and ensure its functionality.
+- Refine SPARQL queries and optimize their performance to handle large datasets.
+- Begin writing and implementing unit tests for the synonym command, focusing on various edge cases like homonyms and multiple meanings and to ensure synonym data is accurate and efficiently retrieved.
+- Test the integration of synonym data with other components of Scribe-Data, ensuring compatibility with Scribe-iOS and Scribe-Android apps.
 
-Document interviews and findings into a structured blog for reference in the research work.
+# Phase IV: Enhancements in translations and synonyms functionality  
+**February 9 - February 29**  
+**WEEK 7** + **WEEK 8** + **WEEK 9**
 
----
+### **Week 7 (February 9 - February 15): Parsing and Data Processing Improvements**
+- **Objective:** Focus on improving the efficiency of data parsing and processing.
+- Work on parsing Wiktionary dumps efficiently, ensuring that large datasets can be processed quickly.
+- Implement improvements to the overall data processing pipeline, focusing on memory management and speed.
+- Begin documenting the workflow for parsing Wiktionary data and integrating it into Scribe-Data’s architecture.
+- Review the progress with mentors and make necessary adjustments.
 
-**July 24th**  
-**FEEDBACK #3**
+### **Week 8 (February 16 - February 22): Expanding Language Support for Commands**
+- **Objective:** Broaden the scope of languages supported by both the translation and synonym commands.
+- Add support for additional languages based on priority and user demand.
+- Refactor existing code to ensure it is adaptable for various language structures (e.g., agglutinative vs. inflectional languages).
+- Continue to improve unit tests, focusing on new languages and ensuring no regressions in functionality.
+- Test the expanded language support in collaboration with Scribe-iOS and Android teams.
 
-# Phase III: Analysis and Improvement of Algorithm  
-**July 24th - July 28th** + **July 31st - August 4th**  
-**WEEK 9** + **WEEK 10**
+### **Week 9 (February 23 - February 29): Bug Fixes and Optimization**
+- **Objective:** Ensure stability, fix bugs, and optimize performance.
+- Identify and fix any bugs encountered during testing and user feedback sessions.
+- Perform extensive code review and refactoring, focusing on code readability and maintainability.
+- Optimize the performance of SPARQL queries and ensure smooth integration with the rest of the Scribe suite.
+- Finalize documentation for the translation and synonym commands, ensuring it is easy to follow for future contributors.
 
-Analyse the algorithm used for suggesting articles for translation. Identify and remove any potential bias.
+## Phase V: Testing and Platform Integration  
+**March 1 - March 14**  
+**WEEK 10** + **WEEK 11**
 
----
+### **Week 10 (March 1 - March 7): Final Testing and Cross-Platform Integration**
+- **Objective:** Conduct full-scale testing and integration with Scribe-iOS, Android, and Desktop apps.
+- Perform end-to-end testing of both the translation and synonym commands within the broader Scribe ecosystem.
+- Ensure that the commands function seamlessly across Scribe-iOS, Android, and Desktop.
+- Collaborate with app developers to test how the data is consumed on different platforms and make necessary adjustments.
+- Fix any remaining bugs and improve the user experience based on feedback.
 
-# Phase IV: Build a Quantitative View on the Issue  
-**August 7th - August 11th**  
-**WEEK 11**
+### **Week 11 (March 8 - March 14): Final Testing and Cross-Platform Integration**
+- **Objective:** Conduct full-scale testing and integration with Scribe-iOS, Android, and Desktop apps.
+- Perform end-to-end testing of both the translation and synonym commands within the broader Scribe ecosystem.
+- Ensure that the commands function seamlessly across Scribe-iOS, Android, and Desktop.
+- Collaborate with app developers to test how the data is consumed on different platforms and make necessary adjustments.
+- Fix any remaining bugs and improve the user experience based on feedback.
 
-Complete the Configuration Time Machine work with the required documentation.
+## Phase VI: Conclusion 
+**March 15 - March 27**  
+**WEEK 12** + **WEEK 13**
 
----
+### **Week 12 (March 15 - March 21): Final Enhancements and Documentation**
+- **Objective:** Polish the project and finalize all documentation.
+- Implement final enhancements based on user testing and mentor feedback.
+- Complete the technical documentation for both translation and synonym commands, including code comments and usage examples.
+- Write a user-facing guide for integrating these commands into Scribe’s apps.
+- Conduct final performance tests to ensure everything runs efficiently.
 
-**August 14th - August 18th**  
-**WEEK 12**
-
-Identify discontinuities in machine translation and check for correlations with changes in published translations.
-
---- 
--->
-**August 21st**  
-**FEEDBACK #4**
-
-# Phase V: Conclusion  
-**March 21st - March 27th**  
-**WEEK 13**
-
-Conclude the research work. Prepare a report of the findings and publish raw data links, code, graphs, and exceptions.  
-Write a blog article summarizing all work done to carry the research forward.
-
+### **Week 13 (March 22 - March 27): Project Wrap-Up and Final Submission**
+- **Objective:** Finalize all deliverables and ensure smooth project closure.
+- - Share the final version of the project with the broader Scribe community for review.
+- Conduct a demo or presentation of the translation and synonym commands to mentors and other stakeholders.
+- Engage with the community to gather feedback and ensure future maintainability.
+- Document community feedback for possible future improvements.
+- Address any last-minute feedback or minor issues.
+- Ensure all contributions are well-documented and prepared for handover to the Scribe community.
+- Participate in a final retrospective meeting with mentors to reflect on the project and learnings.
+- Celebrate project completion and prepare for future contributions to Scribe or similar open-source projects.
+- Write a blog article summarizing all work done.
 ---
 
 **March 21st and Later**
