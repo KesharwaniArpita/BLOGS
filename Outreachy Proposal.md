@@ -4,7 +4,6 @@
 **Email:** arpitakshrwn@gmail.com  
 **Location:** New Delhi, India  
 **LinkedIn:** [Arpita Kesharwani](https://www.linkedin.com/in/arpita-kesharwani-997b75233)  
-<!--- **Zulip:** abhishek02bhardwaj.er@gmail.com (Abhishek Bhardwaj)  -->
 **Phabricator:** Arpita_Kesharwani (Arpita)
 **Blog URL:** [Medium Blog](https://medium.com/@arpita151103)  
 **Time Zone:** UTC+5:30 (Indian Standard Time)
@@ -33,40 +32,69 @@ In addition to research, I will conduct UX research through interviews with tran
 
 I have been contributing to Scribe Data for the past 21 days (from October 01 to October 22). My contributions include the following tasks:
 
-BLog written
+Blog Written:
 
-<!-- **Scribe-Data**
-|Contribution   | Title | Link     |
-|----------|-----|-----------------|
-| Alice    | 25  | Engineer        |
-| Bob      | 30  | Designer        |
-| Charlie  | 22  | Data Scientist  |
+- **Title:** Scribe: An Open-Source Solution for Language Learning and Data Accessibility
+- **Published on:** Medium
+- **Link:** [Read the blog](https://medium.com/@arpita151103/scribe-an-open-source-solution-for-language-learning-and-data-accessibility-092dab026fd6)
+- **Description:** This blog introduces the key features of Scribe, the importance of Free/Libre Open Source Software (FLOSS) in the domain of language learning, and how Scribe's solutions make data accessible to a global audience. The blog raises awareness about Scribe’s mission and products, encouraging new users and contributors to get involved.
+
+ **Scribe-Data**
+| **Sl. No.** | **Contribution** | **Title** | **Link** | **Type of Contribution** | **Merged/Not Merged** |
+|-------------|------------------|-----------|----------|--------------------------|-----------------------|
+| 1           | Added Queries for Northern Sami | #445 | [Link](https://github.com/scribe-org/scribe-data/pull/445) | Localization and Language Data Extraction | Merged |
+| 2           | Added Data For Czech Language | #377 | [Link](https://github.com/scribe-org/scribe-data/pull/377) | Localization and Language Data Extraction | Merged |
+| 3           | Generate Hausa Keywords | #353 | [Link](https://github.com/scribe-org/scribe-data/pull/353) | Localization and Language Data Extraction | Merged |
+| 4           | Add suggestions functionality within validate_language_and_data_type | #344 | [Link](https://github.com/scribe-org/scribe-data/pull/344) | Enhancement Tasks | Merged |
+| 5           | Add CLI Documentation to Scribe-Data .rst File for list and total commands | #332 | [Link](https://github.com/scribe-org/scribe-data/pull/332) | Enhancement Tasks | Merged |
+| 6           | Added emoji_keywords to Esperanto and Latin | #327 | [Link](https://github.com/scribe-org/scribe-data/pull/327) | Improvement of the Emoji Keyword Functionality | Merged |
+| 7           | Added verbs and adjectives in Yoruba | #324 | [Link](https://github.com/scribe-org/scribe-data/pull/324) | Localization and Language Data Extraction | Merged |
+| 8           | Remove current Scribe-Data translations process | #309 | [Link](https://github.com/scribe-org/scribe-data/pull/309) | Enhancement Tasks | Merged |
+| 9           | Added Adverbs and adjectives in German | #304 | [Link](https://github.com/scribe-org/scribe-data/pull/304) | Localization and Language Data Extraction | Merged |
+| 10           | Create query_adverbs.sparql for Bengali | #303 | [Link](https://github.com/scribe-org/scribe-data/pull/303) | SPARQL Query Contributions | Merged |
+| 11           | Added Adverbs, Prepositions, and Adjectives for French | #299 | [Link](https://github.com/scribe-org/scribe-data/pull/299) | Localization and Language Data Extraction | Merged |
+| 12           | Update data_type_metadata.json to include more data types | #298 | [Link](https://github.com/scribe-org/scribe-data/pull/298) | Enhancement Tasks | Merged |
+| 13           | Added Adverbs, Prepositions, and Adjectives for Italian | #296 | [Link](https://github.com/scribe-org/scribe-data/pull/296) | Localization and Language Data Extraction | Merged |
+| 14           | Created keyword-emoji relationship Python file for Hindi | #287 | [Link](https://github.com/scribe-org/scribe-data/pull/287) | Improvement of the Emoji Keyword Functionality | Merged |
+| 15           | Created keyword-emoji relationship Python file for Basque | #283 | [Link](https://github.com/scribe-org/scribe-data/pull/283) | Improvement of the Emoji Keyword Functionality | Merged |
+| 16           | Added the query for extracting Adverbs, Proper Nouns, and Personal Pronouns in Esperanto | #270 | [Link](https://github.com/scribe-org/scribe-data/pull/270) | SPARQL Query Contributions | Merged |
+| 17           | Expanded Esperanto query_verbs.sparql with Tenses and Cases and Created adjective Query | #262 | [Link](https://github.com/scribe-org/scribe-data/pull/262) | SPARQL Query Contributions | Merged |
+| 18           | Create query_adverbs.sparql to incorporate Urdu adverbs | #259 | [Link](https://github.com/scribe-org/scribe-data/pull/259) | SPARQL Query Contributions | Merged |
+| 19           | Add SPARQL query to retrieve all English adjectives | #258 | [Link](https://github.com/scribe-org/scribe-data/pull/258) | SPARQL Query Contributions | Merged |
+| 20           | Enhanced query_verbs.sparql and query_nouns.sparql | #245 | [Link](https://github.com/scribe-org/scribe-data/pull/245) | SPARQL Query Contributions | Merged |
+| 21           | Expanding the Scribe-Data Basque Verb query | #241 | [Link](https://github.com/scribe-org/scribe-data/pull/241) | SPARQL Query Contributions | Merged |
+| 22           | Expand Scribe-Data Hindi verb queries | #240 | [Link](https://github.com/scribe-org/scribe-data/pull/240) | SPARQL Query Contributions | Merged |
+| 23           | Modified the get_selection(), select_languages(), and select_data_types() functions | #216 | [Link](https://github.com/scribe-org/scribe-data/pull/216) | Enhancement Tasks | Merged |
+| 24           | Lowercase CLI args on first parse in main.py | #460 | [Link](https://github.com/scribe-org/scribe-data/pull/460) | Enhancement Tasks | Not Merged |
+| 25           | Expand and Refactor Latin Verb Query to Focus on Present Tense Forms | #435 | [Link](https://github.com/scribe-org/scribe-data/pull/435) | SPARQL Query Contributions | Not Merged |
+| 26           | Centralized Emoji Keyword Functionality call for All Languages | #397 | [Link](https://github.com/scribe-org/scribe-data/pull/397) | Improvement of the Emoji Keyword Functionality | Not Merged |
+| 27           | Add Script to Check Consistency Between Data Types in Directories and Metadata | #390 | [Link](https://github.com/scribe-org/scribe-data/pull/390) | Workflow Automation | Not Merged |
+
 
 **Scribe-Android**
-|Contribution   | Title | Link     |
-|----------|-----|-----------------|
-| Alice    | 25  | Engineer        |
-| Bob      | 30  | Designer        |
-| Charlie  | 22  | Data Scientist  |
+| **Sl. No.** | **Contribution** | **Title** | **Link** | **Type of Contribution** | **Merged/Not Merged** |
+|-------------|------------------|-----------|----------|--------------------------|-----------------------|
+| 1           | Add Pre-commit Hooks and Documentation to Development Environment | #219 | [Link](https://github.com/scribe-org/scribe-android/pull/219) | Workflow Automation | Merged |
+| 2           | Refactor Long Lines of Code for Improved Readability | #213 | [Link](https://github.com/scribe-org/scribe-android/pull/213) | Enhancement Tasks | Merged |
+| 3           | Update detekt.yml set Empty catch to true | #211 | [Link](https://github.com/scribe-org/scribe-android/pull/211) | Workflow Automation | Merged |
+| 4           | Update detekt.yml to fix the large class lint issue | N/A | N/A | Enhancement Tasks | N/A |
+
 
 **Scribe-i18n**
-|Contribution   | Title | Link     |
-|----------|-----|-----------------|
-| Alice    | 25  | Engineer        |
-| Bob      | 30  | Designer        |
-| Charlie  | 22  | Data Scientist  |
+| **Sl. No.** | **Contribution** | **Title** | **Link** | **Type of Contribution** | **Merged/Not Merged** |
+|-------------|------------------|-----------|----------|--------------------------|-----------------------|
+| 1           | Create mr.json (Marathi) | #70 | [Link](https://github.com/scribe-org/scribe-i18n/pull/70) | Localization and Language Data Extraction | Merged |
+| 2           | Create hi.json | #63 | [Link](https://github.com/scribe-org/scribe-i18n/pull/63) | Localization and Language Data Extraction | Merged |
+
 
 **Scribe-Desktop**
-|Contribution   | Title | Link     |
-|----------|-----|-----------------|
-| Alice    | 25  | Engineer        |
-| Bob      | 30  | Designer        |
-| Charlie  | 22  | Data Scientist  |-->
-
+| **Sl. No.** | **Contribution** | **Title** | **Link** | **Type of Contribution** | **Merged/Not Merged** |
+|-------------|------------------|-----------|----------|--------------------------|-----------------------|
+| 1           | Update lib.rs and added few more punctuation marks | #13 | [Link](https://github.com/scribe-org/scribe-desktop/pull/13) | Enhancement Tasks | Merged |
 
 ## Past Experience with Open Source Software
 
-<!--- Although this is my first time contributing to open source, I have been using open-source software for over 10 years. I have experience with tools like VLC, Android, Visual Studio Code, Firefox, WordPress, PHP, and MySQL. Open source has been essential to my learning and development.-->
+I worked as an MLH fellow during the Fall of 2023 for the Apache Airflow community in the SWE-23—fall.A.1 pod. The project was in collaboration with the Royal Bank of Canada(RBC). I Configured and documented processes and commands and developed Python-based scripts from BASH, improving code standardization. Before that, I was a contributor to a PyData community called Bokeh. Bokeh is a powerful interactive visualization library for Python, where I created more example graphs and worked on documentation enhancement. 
 
 ## About the Project
 
@@ -86,11 +114,11 @@ This effort will enhance the Scribe suite's language learning capabilities, offe
 
 ## Timeline
 
-### Pre-Selection Period (April 4 - May 3)
+### Pre-Selection Period (October 30 - November 26)
 - Understand the modified codebase
 - Work on adding language extraction queries.
 
-### Community Bonding Period (May 5 - May 28)
+### Community Bonding Period (November 26 - December 9)
 - Discuss and Plan the internship period with mentors.
 
 <!-- # Phase I: Testing of the Possible Hypothesis  
